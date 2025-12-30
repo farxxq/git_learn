@@ -10,7 +10,7 @@ Git Commands
     ### git commit -m "my first commit"
     `NOTE: git commit -m "()" (commit message within quotes)...`
 4. Adding the remote github to the folder: 
-    ### git remote add origin https://github.com/farxxq/git_learn.git
+    ### git remote add origin https://github.com/farxxq/(repoLink)
     `NOTE: git remote add origin (repoLink)...`
 5. Setting the default branch from master to main: 
     ### git branch -M main
