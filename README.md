@@ -17,6 +17,14 @@ Git Commands
     `NOTE: git branch -M main (the default initialized branch in local git is master whereas the branch in the remote is main so we change the local git branch also to main)...`
 6. Saving the changes to the github: 
     ### git push -u origin main
+     `NOTE: git push -u origin (branch_name) (save the changes to the main branch), (-u origin main: makes the main branch as the active one,then each time we push it gets saved to this branch and we need to have use this term later on)...`
+
+
+Additional commands:
+
+1. check the status of the current folder: 
+    ### git status
+    `NOTE: git status - is responsible to show the status of the git workflow`
 
 
 
