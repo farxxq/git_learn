@@ -24,7 +24,7 @@ Additional commands:
 
 1. check the status of the current folder: 
     ### git status
-    `NOTE: git status - is responsible to show the status of the git workflow`
+    `NOTE: git status - is responsible to show the status of the git working tree`
 
 
 
