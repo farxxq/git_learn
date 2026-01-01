@@ -30,6 +30,9 @@
 8. Deleting a branch: 
    NOTE: git branch -D (branch_name) - to delete an existing branch without being on that branch
    ### `git branch -D new_branch`
+9. Merge the branches data:
+   NOTE: git merge (branch_name) - to merge 2 branches files and data, first be active on a branch that lacks behind the changes and then use the command to merge the changes in , say branch2 to the current branch
+   ### `git merge new_branch`
 
 ## Code related commands...
 
