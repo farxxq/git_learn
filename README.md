@@ -30,6 +30,8 @@
    NOTE: git revert (commit_hash_value), (To revert the unwanted changes made mistakenly)
    ### `git revert .`
 
+   Noor is the name...?
+
 # #Additional commands:
 
 1. check the status of the current folder:
