@@ -22,6 +22,14 @@
    NOTE: git push -u origin (branch_name) (save the changes to the main branch), 
          (-u origin main: makes the main branch as theactive one,then each time we push it gets saved to this branch and we need to have use this term later on)...
    ### `git push -u origin main`
+7. Creating a branch: 
+   NOTE: -> git branch - to view the branches
+         -> git branch (branch_name) - to create the new branch
+         -> git checkout -b (branch_name) - switches to the new branch creating it if it doesn't exist
+   ### `git branch new_branch`
+8. Deleting a branch: 
+   NOTE: git branch -D (branch_name) - to delete an existing branch without being on that branch
+   ### `git branch -D new_branch`
 
 ## Code related commands...
 
@@ -53,3 +61,11 @@
    NOTE: -> git log - to see detailed logs of commit
          -> git log --oneline - to see the commit msg and the hash value
    ### `git log`
+
+3. Checkout/switch command:
+   NOTE: -> git checkout (branch_name) - to switch to the other existing branch
+         -> git checkout -b (branch_name) - to switch to the new branch creating it if it doesn't already exist
+         *> git switch (branch_name) - to switch to the other existing branch
+         *> git switch -c (branch_name) - to switch to the new branch creating it if it doesn't already exist
+   ### `git checkout new_branch`
+   ### `git switch new_branch`
