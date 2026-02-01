@@ -2,7 +2,7 @@ name: github_actions_1
 
 on:
   push:
-    branches: [main, github_actions]
+    branches: [github_actions]
 
 jobs:
   greetings:
@@ -11,3 +11,5 @@ jobs:
     steps:
       - name: "Greetings"
         run: echo "Assalamwalaikum"
+      - name: "Greetings in Urdu"
+        run: echo "السلام علیکم"
