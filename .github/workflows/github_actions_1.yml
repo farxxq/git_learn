@@ -2,7 +2,7 @@ name: github_actions_1
 
 on:
   push:
-    branches: [github_actions]
+    branches: [github_actions_workflows]
 
 jobs:
   greetings:
