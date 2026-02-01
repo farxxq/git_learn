@@ -1,0 +1,13 @@
+name: github_actions_1
+
+on:
+  push:
+    branches: [main, github_actions]
+
+jobs:
+  greetings:
+    runs-on: ubuntu-latest
+  
+    steps:
+      - name: "Greetings"
+        run: echo "Assalamwalaikum"
